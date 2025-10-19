@@ -1,16 +1,64 @@
-# React + Vite
+# CodeCrafter AI 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CodeCrafter AI** is a modern web application that leverages AI to generate responsive, animated, and visually appealing UI components in real-time. Users can describe their desired component, choose a framework, and instantly get clean, production-ready HTML/CSS/JS code along with a live preview.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Demo
+You can see the AI in action by generating UI components with just a few clicks.  
+Enter a description, select a framework, and watch as your code is generated instantly.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- ⚡ **AI-Powered Component Generation**: Describe your UI and let AI generate code.
+- 💻 **Code Editor**: View and edit generated HTML/CSS/JS code directly.
+- 🌐 **Live Preview**: See the component in action immediately.
+- 📂 **Download Code**: Save the generated component as an HTML file.
+- 🆕 **Full Preview Mode**: Open the generated component in a separate tab.
+- 🎨 **Framework Support**: HTML + CSS, Tailwind CSS, Bootstrap, or combinations.
+- ✨ **Beautiful UI**: Modern, dark-themed interface with animations and hover effects.
+- 🖱️ **Copy to Clipboard**: Quickly copy code for your projects.
+
+---
+
+## Screenshots
+
+### Code Editor
+![Code Editor](src/assets/code.jpg)
+
+### Live Preview
+![Live Preview](src/assets/preview.jpg)
+
+---
+
+## Technologies Used
+- **Frontend**: React, Vite, Tailwind CSS, React Select
+- **Code Editor**: Monaco Editor
+- **Icons**: React Icons
+- **AI Backend**: Google Gemini API
+- **Notifications**: React Toastify
+- **Loader**: React Spinners
+- **Deployment**: Render (Static Site)
+
+---
+
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/alimehdi13347/CodeCrafter.git
+cd CodeCrafter
+
