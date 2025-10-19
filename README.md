@@ -37,7 +37,7 @@ Enter a description, select a framework, and watch as your code is generated ins
 ## Screenshots
 
 ### Code Editor
-![Code Editor](src/assets/code.jpg)
+![Code Editor](src/assets/Code.jpg)
 
 ### Live Preview
 ![Live Preview](src/assets/preview.jpg)
